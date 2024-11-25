@@ -2,10 +2,7 @@ import { Controller, Post, Body, Get, Query } from '@nestjs/common';
 import { ApiTags, ApiBearerAuth, ApiOperation, ApiResponse, ApiBody } from '@nestjs/swagger';
 import { RabbitMQService } from '../../infrastructure/rabbitmq/rabbitmq.service';
 import { ConsultBenefitsUseCase } from '../../application/usecases/consult-benefits.usecase';
-import axios from 'axios';
-import * as https from 'https';
 import { CPFDto } from '../dtos/cpfDto';
-
 
 @ApiTags('Benefícios')
 @Controller('api/v1')
