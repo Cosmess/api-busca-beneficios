@@ -38,7 +38,7 @@ Certifique-se de ter os seguintes itens instalados na sua máquina:
 
 ### 1. Clone o Repositório
 ```bash
-git clone https://github.com/seu-usuario/api-dados-beneficios.git
+git clone https://github.com/Cosmess/api-busca-beneficios.git
 cd api-dados-beneficios
 ```
 
